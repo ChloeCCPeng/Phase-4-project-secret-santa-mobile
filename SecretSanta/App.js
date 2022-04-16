@@ -83,6 +83,24 @@ const App: () => Node = () => {
           <Section title="Learn More">
             Read the docs to discover what to do next:
           </Section>
+          <Section title="Register">
+            <Register />
+          </Section>
+          <Section title="Event Setup">
+            <EventSetup />
+          </Section>
+          <Section title="Invitation">
+          <Invitation />
+          </Section>
+          <Section title="Wish List">
+            <Wishlist />
+          </Section>
+          <Section title="Event Detail">
+            <Detail />
+          </Section>
+          <Section title="Shopping List">
+          <ShoppingList />
+          </Section>
           <LearnMoreLinks />
         </View>
       </ScrollView>
